@@ -33,6 +33,7 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
           <div className="flex items-center gap-x-2">
             <h2 className="text-xl">Customize your course</h2>
           </div>
+          <TitleForm initialData={course} courseId={course.id} />
         </div>
       </div>
     </div>
